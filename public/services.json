@@ -1,0 +1,162 @@
+[
+    {
+        "service_id": "04",
+        "name": "Instant Bike Services",
+        "title": "Bike Repair Service",
+        "rating": "7.5",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2tSX-PODuipjQyt9KhuIAKsVTWjBeLfFlI0tdea9-rQ&s",
+        "price": "20.00",
+        "description": "A mechanically inclined entrepreneur with an interest in cycling can earn a great income repairing bicycles right from the comfort of a homebased workshop. In addition to big profit potential, there are many other advantages to operating a bicycle repair service, including low overhead, huge demand for the service in an ever-growing sport, and flexible full- or part-time hours. The key to marketing your services is to join bicycling clubs and organizations in your community, largely because members can become customers and refer other bicycling enthusiasts to your business.",
+        "facility": [
+            {
+                "name": "Instant Bike Services",
+                "details": "Instant Bike Services in Nashik is one of the leading businesses in the Motorcycle Repair & Services."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Also known for Motorcycle Repair & Services, Two Wheeler Repair & Services, Scooter Repair & Services, Moped Repair & Services and much more. Find Address, Contact Number, Reviews & Ratings, Photos, Maps of Instant Bike Services, Nashik."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Choosing the right Motorcycle Repair & Services centre can be a daunting job. The first thing to consider should be a highly skilled team of mechanics, ready to handle any service, repair, or installation task you may need."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "These centres have cutting-edge tools and software. Most of the time they focus on the single-day turnaround on common services like tune-ups, tyre mounting, cylinder bores, and wheel truing, you'll be back out riding in no time."
+            }
+        ]
+    },
+    {
+        "service_id": "05",
+        "name": "Instant Car Services",
+        "title": "Car Repair Service",
+        "rating": "5.5",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfCBxw_QNb3l4p9wSDU3yDnEKp-ayhS7SiatDRVhWyeA&s",
+        "price": "20.00",
+        "description": "Auto Car Repair theme is designed for creating websites of automotive repair shops, stores with spare parts and accessories for car repairs, car washes, service stations, car showrooms painting, major auto centers and other sites related to cars and car services. A template is suitable for any type of small businesses related to automobiles – garages motels and gas stations, repair of tires and wheels, repairs of brakes and other parts of cars, car rental, car diagnostics, auto glass repair, private car services, etc. It has a versatile design oriented for automotive topics.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": " The theme includes page with the schedule of the service, the page “Free Consultation” form page, the page contains area of ​the company, description of work."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "questions and answers page and team members. Template is suitable for users with zero programming skills as well as for experienced developers."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "There was a time when owning a vehicle was regarded as a luxury. As technology progressed, a car became a necessity for travelling to your everyday destinations. This complicated machine cuts your travelling cost and time."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "and before we knew it, owning a car became as important as buying a house. However, like any other machine, your car demands regular maintenance and care to keep working as efficiently as possible. "
+            }
+        ]
+    },
+    {
+        "service_id": "01",
+        "name": "Instant Mobile Services",
+        "title": "Mobile Repair Service",
+        "rating": "6.0",
+        "img": "https://media.istockphoto.com/id/1183921783/photo/smartphone-repairman-man-securing-a-screw.jpg?b=1&s=170667a&w=0&k=20&c=kFPYnvYeZlHkHwOMw6u4Ht_PvRv9yAiyY-Qd-nV3f0E=",
+        "price": "200.00",
+        "description": "There might be several ways to get your mobile damaged. And that is why you visit the nearest mobile repair services shop where you can fix your damaged mobile phone. Of course, if a problem occurs with a phone then mobile repair is the only option that can make your phone workable again. The problems such as water damage, screen repair, software problem, other hardware problems.",
+        "facility": [
+            {
+                "name": "Instant Mobile Services",
+                "details": "But do you know there are multiple myths spread around all the community of mobile repair services? Although every device repaired system works the same and all are working fairly. This is why in this article we will share some of those myths about mobile repair services."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "A phone repair service can never steal your data if you remove your memory card or storage data from your phone."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Before handling your mobile phone to the mobile repair shop you should always keep your mobile data safe by taking the full backup. Although, this is not the case when a phone repair shop will try to steal your data while fixing your damaged phone. But for your satisfaction, you should get a backup of your mobile data."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "This is not a genuine case scenario; nobody is interested in hacking your phone. Generally, mobile repair technicians do have knowledge of the hardware functioning of a phone instead of software technicalities."
+            }
+        ]
+    },
+    {
+        "service_id": "02",
+        "name": "Instant Computer Services",
+        "title": "Computer Repair Service",
+        "rating": "8.4",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7LOs4nXydONmDBcOYMnoQ1u8AJbdOhTF6h5uBh3LNBw&s",
+        "price": "150.00",
+        "description": "Businesses and home users depend on computers in increasing ways every day. Even a minor computer problem disrupts our life and hampers business activities. This is where we need to consult with a certified computer technician. With the constant development of new technology, there also comes many technical problems like spyware attacks on computers, virus infections, network issues, and other software and hardware failures.",
+        "facility": [
+            {
+                "name": "Instant Computer Services",
+                "details": "Its really frustrating to encounter an issue that disturbs the whole course of a business and they need to have their computer serviced at a moments notice."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "As businesses always need quick and reliable computer repair services its best for them to know about different computer services. This will help in choosing the right service for your specific problem."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "In this service computer technicians ensure that the virus will be removed without risking the important data or information on your computer."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "You can also get virus removal services online, as well as complete services that include all the steps that are required to get your computer up and running problem-free."
+            }
+        ]
+    },
+    {
+        "service_id": "03",
+        "name": "Instant Laptop Services",
+        "title": "Laptop Repair Service",
+        "rating": "9.0",
+        "img": "https://thumbs.dreamstime.com/b/laptop-disassembling-repair-shop-close-up-disassembled-computer-motherboard-repairman-workplace-electronic-development-80588917.jpg",
+        "price": "30.00",
+        "description": "Star Tech has many sides that it takes care of but our most important side that we focus and emphasize on is the Servicing. We want our customers to be happy and satisfied in our products and in us. So, it is our priority to provide all types of servicing to our customers. We provide servicing for Laptops, Desktops, Projectors, Printers, Monitors, UPS, Cameras, TVs and all the products that we sell.",
+        "facility": [
+            {
+                "name": "Instant Laptop Services",
+                "details": "There are lots of ranges of servicing being provided by Star Tech in each of the Categories. All our servicing employees are highly trained and experienced to detect any types of problems in your product and give you the accurate description to what the problem is and why it is happening."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Our service center is able to fix all types of problems regarding your Laptop and Notebook. Our employees are highly trained and has lots of experience fixing laptops and notebooks."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "We provide hardware and software support for your required laptop or notebook. There are numerous types of hardware supports that we specialize on."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "We able to fix any kind of power disturbances or charging problems. We also look at the internal problems like unstable BIOS laptop or notebook hanging problem, slow or crashed windows and even install windows if required."
+            }
+        ]
+    },
+    {
+        "service_id": "06",
+        "title": "Freeze Repair Service",
+        "img": "https://media.istockphoto.com/id/928076872/photo/technician-fixing-refrigerator.jpg?s=612x612&w=0&k=20&c=ikWOmNcY_BTwIB0E_9svUPBMvNtCFMtBEy-Rm4Ud-PE=",
+        "price": "20.00",
+        "description": "We have experience in repairing and maintaining a wide range of Technical service Freeze services provide the full range of support and services to its clients this includes 24/7 emergency repair service! We can assist you with a range of basic electrical repairs or maintenance, preventative planned maintenance, general service , work contract.",
+        "facility": [
+            {
+                "name": "Instant Freeze Services",
+                "details": "We have experience in repairing and maintaining a wide range of Technical service Freeze services provide the full range of support and services to its clients this includes 24/7 emergency repair service!"
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "We can assist you with a range of basic electrical repairs or maintenance, preventative planned maintenance, general service ,work contract."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Sulekha brings to you a list of skilled and experienced technicians offering refrigerator repair services at affordable service charges."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "For getting your refrigerator repaired, you can book an engineer through Sulekha. Sulekha is the foremost choice of users looking for refrigerator service experts as we offer"
+            }
+        ]
+    }
+]
