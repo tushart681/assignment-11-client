@@ -18,7 +18,7 @@ const Service = () => {
             </div>
             <div className='grid grid-cols-3'>
                 {
-                    service.slice(0, 3).map(result => <ServiceCard key={result} result={result}></ServiceCard>)
+                    service.slice(0, 3).map((result, id) => <ServiceCard key={id} result={result}></ServiceCard>)
                 }
             </div>
             <Link to={'/allservice'}><button className="btn btn-primary mt-3">See All

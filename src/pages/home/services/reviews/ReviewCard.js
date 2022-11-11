@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ReviewCard = ({result}) => {
-    const {_id, name, photo, message , handleDelete, handleUpdate, status} = result
+const ReviewCard = ({result, handleDelete, setService}) => {
+    const {_id, name, photo, message} = result
 
     return (
         <div className="overflow-x-auto w-full">
@@ -12,7 +12,7 @@ const ReviewCard = ({result}) => {
                         <th>comments</th>
                         <th>
                         <button onClick={()=> handleDelete(_id)} className="btn btn-xs">X</button>
-                        <button onClick={()=> handleUpdate(_id)} className="btn btn-xs">{status ? status : 'pending'}</button>
+                        <label onClick={()=>setService(_id)} className="btn btn-xs" htmlFor="my-modal">Update</label>
                         </th>
                     </tr>
                 </thead>

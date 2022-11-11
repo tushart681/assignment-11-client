@@ -1,6 +1,10 @@
 import React from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const AddService = () => {
+    const naviget = useNavigate()
+    const location = useLocation()
+    const from = location.state?.from?.pathname || '/';
     const handleSubmit = event => {
         event.preventDefault()
         const form = event.target;
@@ -16,7 +20,7 @@ const AddService = () => {
             photo,
             description
         }
-        fetch('http:/services:5000', {
+        fetch('http://localhost:5000/services', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -29,6 +33,7 @@ const AddService = () => {
                     alert('Add Service successfully')
                     form.reset()
                 }
+                naviget(from, {state: true})
             })
             .catch(err => console.error(err))
     }

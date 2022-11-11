@@ -5,7 +5,14 @@ import logo from '../../../images/images (1).png'
 import Banner from '../../home/banner/Banner';
 
 const Header = () => {
-  const { user, logOut } = useContext(AuthContext)
+  const { user, logOut, googleSignIn } = useContext(AuthContext)
+  const handleGoogleSignIn = () => {
+    googleSignIn()
+    .then(res => {
+      const user = res.user;
+      console.log(user)
+    })
+  }
   const HandleLogOut = () => {
     logOut()
       .then()
@@ -47,7 +54,7 @@ const Header = () => {
             :
             <>
             <Link to={'/login'}><button className="btn btn-outline">Log In</button></Link>
-            <button className="btn btn-outline">Login By Google</button>
+            <button onClick={handleGoogleSignIn} className="btn btn-outline">Login By Google</button>
             </>
         }
       </div>

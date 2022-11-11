@@ -8,6 +8,7 @@ import Review from "../pages/home/services/Review";
 import MyReviews from "../pages/home/services/reviews/MyReviews";
 import Reviews from "../pages/home/services/reviews/Reviews";
 import Login from "../pages/login/Login";
+import Private from "../pages/private/PrivateRoute";
 import SignIn from "../pages/signIn/SignIn";
 
 const router = createBrowserRouter([
@@ -33,16 +34,16 @@ const router = createBrowserRouter([
             },
             {
                 path:'/review/:id',
-                element: <Review />,
+                element: <Private><Review /></Private>,
                 loader: ({params})=> fetch(`http://localhost:5000/services/${params.id}`)
             },
             {
                 path:'/reviews',
-                element:<Reviews></Reviews>
+                element:<Private><Reviews></Reviews></Private>
             },
             {
                 path:'/myreview',
-                element:<MyReviews></MyReviews>
+                element:<Private><MyReviews></MyReviews></Private>
             },
             {
                 path:'/addservice',
