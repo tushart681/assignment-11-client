@@ -8,7 +8,7 @@ const MyReviews = () => {
     const [review, setReview] = useState([])
     const [service, setService] = useState(null)
     useEffect(() => {
-        fetch(`http://localhost:5000/review?email=${user?.email}`, {
+        fetch(`https://assignment-11-server-red.vercel.app/review?email=${user?.email}`, {
             headers: {
                 authorization: `Bearer ${localStorage.getItem('token')}`
             }
@@ -23,7 +23,7 @@ const MyReviews = () => {
     const handleDelete = _id => {
         const deleted = window.confirm('are you sure?')
         if (deleted) {
-            fetch(`http://localhost:5000/review/${_id}`, {
+            fetch(`https://assignment-11-server-red.vercel.app/review/${_id}`, {
                 method: "DELETE",
                 headers: {
                     'content-type':'application/json'
@@ -46,7 +46,7 @@ const MyReviews = () => {
         const _id = service;
         const field = e.target.update.value
         console.log(field, _id)
-        fetch(`http://localhost:5000/review/${_id}`, {
+        fetch(`https://assignment-11-server-red.vercel.app/review/${_id}`, {
             method: 'PATCH',
             headers: {
                 'content-type': 'application/json',

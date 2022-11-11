@@ -22,7 +22,7 @@ const Review = () => {
             name,
             message
         }
-        fetch('http://localhost:5000/review', {
+        fetch('https://assignment-11-server-red.vercel.app/review', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -39,7 +39,7 @@ const Review = () => {
             .catch(err => console.error(err))
     }
     useEffect(() => {
-        fetch('http://localhost:5000/review')
+        fetch('https://assignment-11-server-red.vercel.app/review')
             .then(res => res.json())
             .then(data => setReview(data))
             .catch(err => console.error(err))
